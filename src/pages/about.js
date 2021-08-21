@@ -38,6 +38,7 @@ const AboutPage = () => (
           <StaticImage
             src="../images/truck-loading.svg"
             className="about-icons"
+            alt="Agentes de carga"
             layout="fullWidth"
           />
           <div className="description">Agentes de Carga</div>
@@ -47,6 +48,7 @@ const AboutPage = () => (
         <div className="body-container-servicios">
           <StaticImage
             src="../images/user-tie.svg"
+            alt="Servicios Aduaneros"
             className="about-icons"
             layout="fullWidth"
           />
@@ -57,6 +59,7 @@ const AboutPage = () => (
         <div className="body-container-servicios">
           <StaticImage
             src="../images/industry.svg"
+            alt="Carga de Proyecto"
             className="about-icons"
             layout="fullWidth"
           />
@@ -67,6 +70,7 @@ const AboutPage = () => (
         <div className="body-container-servicios">
           <StaticImage
             src="../images/home.svg"
+            alt="Oficina Compas Internacionales"
             className="about-icons"
             layout="fullWidth"
           />
@@ -79,6 +83,7 @@ const AboutPage = () => (
         <div className="body-container-servicios">
           <StaticImage
             src="../images/handshake.svg"
+            alt="Seguros de Transporte"
             className="about-icons"
             layout="fullWidth"
           />
