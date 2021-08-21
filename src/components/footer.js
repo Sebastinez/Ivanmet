@@ -55,30 +55,6 @@ export const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="footer-contact" style={{ color: "#fff" }}>
-        <StaticImage
-          src="../images/ivanmet-chile.png"
-          className="contactLogo"
-          height={65}
-          placeholder="blurred"
-          alt="Logo Chile"
-        />
-        <div>Haydeé Arias 769</div>
-        <div>
-          Pobl. Portal del Estrecho
-          <br />
-          Punta Arenas, Chile
-        </div>
-        <div>+56 61 221 0562</div>
-        <div>
-          <a
-            href="mailto:administracion@ivanmetchile.com"
-            style={{ color: "white", textDecoration: "underline" }}
-          >
-            administracion@ivanmetchile.com
-          </a>
-        </div>
-      </div>
       <div className="footer-contact">
         {/* <a href="https://profiles.dunsregistered.com/DunsRegisteredProfileAnywhere.aspx?key1=3139766&PaArea=mail" target="_blank"><img src="./img/dunsSello.jpg" alt="" id="DUNSQR"></a> */}
       </div>
