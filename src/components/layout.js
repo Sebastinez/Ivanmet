@@ -30,29 +30,19 @@ const Layout = ({ children }) => {
         <div id="bannerDiv">
           <StaticImage src="../images/banner.png" alt="" height={134} />
         </div>
-        <div/>
-        <div/>
-        <div/>
-        <div/>
-        <div>
-          <a href="http://www.wnaweb.com/" target="_blank" rel="noreferrer">
-            <StaticImage
-              src="../images/WNA.png"
-              alt="WNA Logo"
-              layout="fixed"
-              height={80}
-              className="WNALogo"
-            />
-          </a>
-        </div>
-        <div>
-          <StaticImage
-            src="../images/DUNS.png"
-            id="DUNSLogo"
-            alt=""
-            height={50}
-            className="DUNSLogo"
-          />
+        <div className="headerLogos">
+          <div>
+            <a href="http://www.wnaweb.com/" target="_blank" rel="noreferrer">
+              <StaticImage
+                src="../images/WNA.png"
+                alt="WNA Logo"
+                layout="fixed"
+                height={80}
+                className="WNALogo"
+              />
+            </a>
+          </div>
+           <iframe className="DUNSLogo" title="DUNSLogo" src='https://dunsregistered.dnb.com/SealAuthentication.aspx?Cid=1' width='114px' height='97px' frameBorder='0' scrolling='no' allowtransparency='true' ></iframe>
         </div>
       </div>
       <Navbar />
