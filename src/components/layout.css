@@ -40,6 +40,11 @@ div#flexBoton a p.mobile {
   margin-bottom: 30px;
 }
 
+.DUNSLogo {
+  transform: scale(0.6);
+  z-index: 3;
+}
+
 #flexBoton {
   justify-content: center;
   display: flex;
