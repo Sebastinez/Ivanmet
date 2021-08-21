@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
           <div>
             <a href="http://www.wnaweb.com/" target="_blank" rel="noreferrer">
               <StaticImage
-                src="../images/WNA.png"
+              src="../images/WNA.png"
                 alt="WNA Logo"
                 layout="fixed"
                 height={80}
@@ -42,7 +42,7 @@ const Layout = ({ children }) => {
               />
             </a>
           </div>
-           <iframe className="DUNSLogo" title="DUNSLogo" src='https://dunsregistered.dnb.com/SealAuthentication.aspx?Cid=1' width='50px' height='42px' frameBorder='0' scrolling='no' allowtransparency='true' ></iframe>
+           <iframe className="DUNSLogo" title="DUNSLogo" src='https://dunsregistered.dnb.com/SealAuthentication.aspx?Cid=1' width='114px' height='97px' frameBorder='0' scrolling='no' allowtransparency='true' ></iframe>
         </div>
       </div>
       <Navbar />
